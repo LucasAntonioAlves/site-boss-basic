@@ -1,0 +1,55 @@
+	/* Configurando DIV receita */ 
+
+div.gallery {
+  
+  
+}
+
+div.gallery:hover {
+ 
+}
+
+div.gallery img{
+  width: 170%;
+  height: AUTO;
+  border-radius: 110px;
+  border: 2px solid lightblue;
+  
+}
+
+div.desc {
+  padding: 30px;
+  text-align: center;
+  
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+.responsive {
+  padding: 0 5px;
+  width: 35%;
+   margin-left: 22%;
+ 
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
